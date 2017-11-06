@@ -44,9 +44,9 @@ var toReturn = {
 		soldierCurrentAttack: 0,
 		soldierCurrentBlock: 0,
 		fighting: false,
-		health: 50,
-		attack: 6,
-		block: 0,
+		health: 50000,
+		attack: 60000,
+		block: 100000,
 		autoBattle: false,
 		autoCraftModifier: 0,
 		start: new Date().getTime(),
@@ -200,15 +200,15 @@ var toReturn = {
 		},
 		lootAvgs: {
 			food: [0],
-			foodTotal: 0,
+			foodTotal: 10000000,
 			wood: [0],
-			woodTotal: 0,
+			woodTotal: 10000000,
 			metal: [0],
-			metalTotal: 0,
+			metalTotal: 10000000,
 			gems: [0],
-			gemsTotal: 0,
+			gemsTotal: 10000000,
 			fragments: [0],
-			fragmentsTotal: 0
+			fragmentsTotal: 10000000
 		},
 		menu: {
 			buildings: true,
